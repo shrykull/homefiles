@@ -56,7 +56,7 @@ zstyle ':completion:*' list-colors ''
 zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
 zstyle ':completion:*' menu select=1
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
-zstyle :compinstall filename '/home/gsteinmetz/.zshrc'
+zstyle :compinstall filename "$HOME/.zshrc"
 
 # setopt menucomplete # show completion on first tab
 
